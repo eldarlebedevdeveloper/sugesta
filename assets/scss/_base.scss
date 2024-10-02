@@ -1,0 +1,14 @@
+$c-white: #ffffff;
+$c-black: #111111;
+$c-black-total: #00000033;
+$c-orange: #FF9900;
+$c-light-orange: #FFF8ED;
+$c-gray: #747377;
+$c-light-gray: #E6E6E6;
+$c-light-gray-2: #B9B9B9;
+$c-blue: #7A7ED2;
+$c-red: #FF0F00;
+@mixin breakpoint($point) {
+    @media (max-width: $point) { @content; }
+}
+
